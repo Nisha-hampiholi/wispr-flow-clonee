@@ -14,15 +14,9 @@ This project demonstrates real-time audio capture, WebSocket streaming, and AI-p
 > Press and hold the microphone button to dictate.  
 > Release the button to stop recording and finalize the transcript.
 
-![Wispr Flow Clone UI](assets/app-screenshot.png)
+![Wispr Flow Clone UI](assets/Screenshot 2025-12-15 220111.png)
 
-> 📌 **Note:**  
-> Make sure the screenshot is uploaded at:
-> ```
-> assets/app-screenshot.png
-> ```
 
----
 
 ## ✨ Features
 
@@ -67,4 +61,5 @@ The application follows a modular and maintainable architecture:
 ```bash
 git clone https://github.com/<your-username>/wispr-flow-clone.git
 cd wispr-flow-clone
+
 
