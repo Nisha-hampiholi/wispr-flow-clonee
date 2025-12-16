@@ -13,7 +13,7 @@ This project was built as a practical technical assignment to demonstrate **AI-p
 Press and hold the microphone button to dictate.  
 Release the button to stop recording and finalize the transcript.
 
-![input view](Screenshot 2025-12-15 223018.png)
+![Input View](Screenshot 2025-12-15 223018.png)
 
 ---
 
