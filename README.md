@@ -1,65 +1,54 @@
-# 🎙️ Wispr Flow Clone
+2️⃣ Install Dependencies
+npm install
 
-A cross-platform **voice-to-text desktop application** inspired by Wispr Flow.  
-Built using **Tauri + React** with **Deepgram** for real-time speech transcription.
+3️⃣ Configure Environment Variables
 
-This project demonstrates real-time audio capture, WebSocket streaming, and AI-powered transcription in a native desktop app.
+Create a .env file in the project root:
+
+VITE_DEEPGRAM_API_KEY=your_deepgram_api_key_here
+
+
+⚠️ The .env file is intentionally excluded from version control.
+
+4️⃣ Run the App (Development Mode)
+npm run tauri dev
+
+
+The desktop application will launch automatically.
+
+⚠️ Known Limitations
+
+Uses ScriptProcessorNode instead of AudioWorklet
+
+No global keyboard shortcut (push-to-talk via UI button)
+
+UI focuses on functionality rather than production polish
+
+English language transcription by default
+
+🚧 Possible Future Improvements
+
+Global hotkey support
+
+Clipboard auto-copy / auto-paste
+
+Audio waveform visualization
+
+Multi-language transcription support
+
+Enhanced UI animations
+
+🎬 Demo Video
+
+📽️ Demo Video:
+Add your YouTube (Unlisted) or Google Drive link here
+
+📄 License
+
+This project was created for educational and technical evaluation purposes.
+
 
 ---
 
-## 📸 Application Screenshot
-
-### Push-to-Talk Voice Transcription
-
-> Press and hold the microphone button to dictate.  
-> Release the button to stop recording and finalize the transcript.
-
-![Wispr Flow Clone UI](assets/Screenshot 2025-12-15 220111.png)
-
-
-
-## ✨ Features
-
-- 🎤 Push-to-talk voice input
-- ⚡ Real-time speech-to-text transcription
-- 🖥️ Cross-platform desktop app (Windows / macOS / Linux)
-- 🔌 WebSocket-based audio streaming
-- 🧠 Clean separation of concerns (UI, audio, transcription)
-- 🎨 Simple, modern, and intuitive interface
-
----
-
-## 🛠️ Tech Stack
-
-- **Tauri** – Lightweight and secure desktop framework
-- **React + TypeScript** – Frontend UI
-- **Deepgram Speech-to-Text API** – Real-time transcription
-- **Web Audio API** – Microphone access and audio processing
-- **Vite** – Frontend build tooling
-
----
-
-## 🧩 Architecture Overview
-
-The application follows a modular and maintainable architecture:
-
-- **UI Layer (React)**  
-  Handles user interaction, recording controls, and transcript display.
-
-- **Audio Layer (Web Audio API)**  
-  Captures microphone input, converts audio to 16kHz PCM format, and streams audio chunks.
-
-- **Transcription Layer (Deepgram WebSocket)**  
-  Streams audio data to Deepgram and receives real-time transcription results.
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/wispr-flow-clone.git
-cd wispr-flow-clone
-
-
+✅ That’s it.  
+Just paste → save → commit.
