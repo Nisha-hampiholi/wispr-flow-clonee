@@ -13,7 +13,7 @@ This project was built as a practical technical assignment to demonstrate **AI-p
 Press and hold the microphone button to dictate.  
 Release the button to stop recording and finalize the transcript.
 
-![Wispr Flow Clone UI](assets/app-screenshot.png)
+![Wispr Flow Clone UI](Screenshot 2025-12-15 223018.png)
 
 ---
 
